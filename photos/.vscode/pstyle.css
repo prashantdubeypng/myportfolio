@@ -1,0 +1,137 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation Bar */
+.navigationbar {
+    background-color: #2C3E50;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navigationbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigationbar ul li {
+    margin: 0 20px;
+}
+
+.navigationbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 14px 20px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+.navigationbar ul li a:hover {
+    background-color: #34495E;
+    color: #ECF0F1;
+}
+
+/* Heading Styles */
+h1, h2 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 50px;
+    color: #2C3E50;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    color: #34495E;
+}
+
+/* Container Style */
+.container {
+    background: #fff;
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Paragraph and List Styles */
+p, ul {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+ul {
+    padding-left: 30px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Link Styles */
+a {
+    color: #3498DB;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #1ABC9C;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navigationbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigationbar ul li {
+        margin: 10px 0;
+    }
+
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}

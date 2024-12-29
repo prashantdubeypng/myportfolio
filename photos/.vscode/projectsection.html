@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .navigationbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navigationbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navigationbar ul li {
+            margin: 0 15px;
+        }
+
+        .navigationbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px 15px;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        .navigationbar ul li a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2.5em;
+        }
+
+        .container {
+            background: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #444;
+        }
+
+        p, ul {
+            margin-top: 10px;
+            font-size: 1em;
+            color: #555;
+        }
+
+        ul {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigationbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="projectsection.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Progress</a></li>
+        </ul>
+    </div>
+    <h1>Projects</h1>
+    <div class="container">
+        <h1>Shop Management System</h1>
+        <h2>Description:</h2>
+        <p>
+            The Shop Management System is a Java-based application designed to simplify 
+            retail operations. It manages inventory, tracks sales, generates customer bills, 
+            and calculates daily profits.
+        </p>
+        
+        <h2>Features:</h2> 
+        <ul>
+            <li>Add, update, and monitor stock levels with low-stock alerts.</li>
+            <li>Customer cart management and bill generation with real-time stock updates.</li>
+            <li>Tracks daily sales and calculates profits by comparing selling and cost prices.</li>
+        </ul>
+
+        <h2>Technologies:</h2>
+        <ul>
+            <li>Language: Java</li>
+            <li>Data Structures: ArrayLists for dynamic data management</li>
+            <li>Libraries: java.time for date/time and Scanner for user inputs</li>
+        </ul>
+
+        <h2>Future Enhancements:</h2>
+        <ul>
+            <li>GUI development using JavaFX</li>
+            <li>Database integration for storing and retrieving product details</li>
+        </ul>
+
+        <h2>Repository:</h2>
+        <p>
+            You can explore the full project on GitHub: 
+            <a href="https://github.com/prashantdubeypng/Shop_Management_System" target="_blank">
+                Shop Management System Repository
+            </a>
+        </p>
+    </div>
+</body>
+</html>
